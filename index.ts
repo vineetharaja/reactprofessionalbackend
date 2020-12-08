@@ -1,3 +1,4 @@
+//import { Configuration } from "./config";
 import { LogManager } from "./common";
 import { Customer } from "./models";
 
@@ -8,6 +9,10 @@ class MainClass {
             12000, true, "Simple Remarks");
 
         LogManager.info(customer.toString());
+
+        //const settings = Configuration.getConfiguration();
+
+        //LogManager.info(settings.getConnectionString());
     }
 }
 

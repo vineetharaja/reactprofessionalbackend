@@ -11,10 +11,15 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\index.js",
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
-            ]
+            "program": "${workspaceFolder}\\index.js"//,
+            // "outFiles": [
+            //     "${workspaceFolder}/**/*.js"
+            // ],
+            // "env": [
+            //     "MONGO_SERVER":"localhost",
+            //     "MONGO_PORT":"27017",
+            //     "MONGO_DB":"customersdb"
+            // ]
         }
     ]
 }
