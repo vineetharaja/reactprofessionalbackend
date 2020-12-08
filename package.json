@@ -1,0 +1,24 @@
+{
+  "name": "react-professionalbackend",
+  "version": "1.0.0",
+  "description": "This is a CRM System Back-end Services for Customers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineetharaja/react-professionalbackend.git"
+  },
+  "keywords": [
+    "customers",
+    "react",
+    "backend"
+  ],
+  "author": "Vineetha Raja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vineetharaja/react-professionalbackend/issues"
+  },
+  "homepage": "https://github.com/vineetharaja/react-professionalbackend#readme"
+}
