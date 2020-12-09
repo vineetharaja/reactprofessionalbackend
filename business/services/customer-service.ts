@@ -122,7 +122,8 @@ class CustomerService implements ICustomerService {
 
             const addedRecord = await CustomersContext.create(customerRecord);
 
-            status = addedRecord !== null && addedRecord._id;
+            //status = addedRecord !== null && addedRecord._id;
+            status = addedRecord !== null && addedRecord._id !== null;
         } catch (exception) {
             LogManager.error(exception);
 
