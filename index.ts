@@ -55,7 +55,7 @@ class MainClass {
                 }
 
                 const passphrase = process.env.PASS_PHRASE || "";
-                const certificateDetails = new CertificateDetails(certFile, keyFile, passphrase);
+                const certificateDetails = new CertificateDetails(keyFile, certFile, passphrase);
 
                 host = new CustomerServiceHost(portNumber, enableHttps, certificateDetails);
             } else {

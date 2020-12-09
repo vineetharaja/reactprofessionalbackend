@@ -43,7 +43,7 @@ class MainClass {
                     throw new Error(INVALID_SSL_CERTIFICATE_DETAILS);
                 }
                 const passphrase = process.env.PASS_PHRASE || "";
-                const certificateDetails = new models_1.CertificateDetails(certFile, keyFile, passphrase);
+                const certificateDetails = new models_1.CertificateDetails(keyFile, certFile, passphrase);
                 host = new hosting_1.CustomerServiceHost(portNumber, enableHttps, certificateDetails);
             }
             else {
